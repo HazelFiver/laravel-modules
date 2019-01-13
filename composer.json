@@ -1,5 +1,5 @@
 {
-    "name": "HazelFiver/laravel-modules",
+    "name": "hazelfiver/laravel-modules",
     "description": "a custom laravel module based on nwidart/laravel-modules",
     "type": "tools",
     "require": {
