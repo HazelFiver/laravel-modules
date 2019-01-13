@@ -1,8 +1,9 @@
 <?php
 
 namespace HazelFiver\Modules;
-
+use Nwidart\Modules\Contracts;
 use Nwidart\Modules\Support\Stub;
+use Nwidart\Modules\Laravel;
 
 class LaravelModulesServiceProvider extends ModulesServiceProvider
 {
