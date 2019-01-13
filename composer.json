@@ -1,0 +1,32 @@
+{
+    "name": "hazel/laravel-modules",
+    "description": "a custom laravel module based on nwidart/laravel-modules",
+    "type": "tools",
+    "require": {
+        "nwidart/laravel-modules": "^4.0",
+        "php": "^7.1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanghouting",
+            "email": "wanghouting@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hazel\\Modules\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hazel\\Modules\\ModulesServiceProvider"
+            ],
+            "aliases": {
+                "Modules": "Hazel\\Modules\\ModulesFacade"
+            }
+        }
+    }
+}
+
