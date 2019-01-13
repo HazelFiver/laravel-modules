@@ -24,7 +24,7 @@
                 "HazelFiver\\Modules\\LaravelModulesServiceProvider"
             ],
             "aliases": {
-
+                "Module": "HazelFiver\\Modules\\Facades\\Module"
             }
         }
     }
