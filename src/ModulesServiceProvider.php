@@ -1,9 +1,9 @@
 <?php
 
-namespace Hazel\Modules;
+namespace HazelFiver\Modules;
 
 use Nwidart\Modules\Providers\BootstrapServiceProvider;
-use Hazel\Modules\Providers\ConsoleServiceProvider;
+use HazelFiver\Modules\Providers\ConsoleServiceProvider;
 use Nwidart\Modules\Providers\ContractsServiceProvider;
 
 abstract class ModulesServiceProvider extends \Nwidart\Modules\ModulesServiceProvider
@@ -18,7 +18,7 @@ abstract class ModulesServiceProvider extends \Nwidart\Modules\ModulesServicePro
 
         $this->mergeConfigFrom($configPath, 'modules');
         $this->publishes([
-            $configPath => config_path('hazel-modules.php'),
+            $configPath => config_path('hazelfiver-modules.php'),
         ], 'config');
     }
 

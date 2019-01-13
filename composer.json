@@ -1,5 +1,5 @@
 {
-    "name": "hazel/laravel-modules",
+    "name": "HazelFiver/laravel-modules",
     "description": "a custom laravel module based on nwidart/laravel-modules",
     "type": "tools",
     "require": {
@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hazel\\Modules\\ModulesServiceProvider"
+                "HazelFiver\\Modules\\ModulesServiceProvider"
             ],
             "aliases": {
-                "Modules": "Hazel\\Modules\\ModulesFacade"
+
             }
         }
     }

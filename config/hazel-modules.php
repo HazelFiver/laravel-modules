@@ -24,7 +24,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/hazel/laravel-modules/src/Commands/stubs',
+        'path' => base_path() . '/vendor/hazelfiver/laravel-modules/src/Commands/stubs',
         'files' => [
             'scaffold/config' => 'Config/config.php',
             'scaffold/route' => 'Config/route.php',

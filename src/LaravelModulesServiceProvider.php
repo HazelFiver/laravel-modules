@@ -1,6 +1,6 @@
 <?php
 
-namespace Hazel\Modules;
+namespace HazelFiver\Modules;
 
 use Nwidart\Modules\Support\Stub;
 

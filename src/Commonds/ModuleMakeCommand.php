@@ -1,9 +1,8 @@
 <?php
 
-namespace Hazel\Modules\Commands;
+namespace HazelFiver\Modules\Commands;
 
-
-use Hazel\Modules\Generators\ModuleGenerator;
+use HazelFiver\Modules\Generators\ModuleGenerator;
 
 class ModuleMakeCommand extends \Nwidart\Modules\Commands\ModuleMakeCommand
 {
@@ -19,7 +18,7 @@ class ModuleMakeCommand extends \Nwidart\Modules\Commands\ModuleMakeCommand
      *
      * @var string
      */
-    protected $description = 'Create a new module by hazel module.';
+    protected $description = 'Create a new module by HazelFiver module.';
 
     /**
      * Execute the console command.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hazel\Modules\Generators;
+namespace HazelFiver\Modules\Generators;
 
 
 
