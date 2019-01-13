@@ -1,6 +1,6 @@
 {
     "name": "hazelfiver/laravel-modules",
-    "description": "a custom laravel module based on nwidart/laravel-modules",
+    "description": "a custom laravel modules based on nwidart/laravel-modules",
     "type": "tools",
     "require": {
         "nwidart/laravel-modules": "^4.0",
@@ -15,13 +15,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hazel\\Modules\\": "src/"
+            "HazelFiver\\Modules\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HazelFiver\\Modules\\ModulesServiceProvider"
+                "HazelFiver\\Modules\\LaravelModulesServiceProvider"
             ],
             "aliases": {
 
