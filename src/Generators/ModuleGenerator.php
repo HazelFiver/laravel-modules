@@ -32,6 +32,15 @@ class ModuleGenerator extends \Nwidart\Modules\Generators\ModuleGenerator
             'controller' => $this->getName() . 'Controller',
             'module' => $this->getName(),
         ]);
+        
+        $callClass =  config('modules.call_class',[]);
+
+        foreach ($callClass as $class){
+            $classEntity = new $class();
+            if($classEntity  instanceof HazelModulesCall)
+                $classEntity->handel($this->getName());
+        }
+
     }
 
     /**
